@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#15775a">
+  <!-- File/static previews link to the running local demo; API calls stay same-origin. -->
+  <meta name="nexus-local-server" content="http://127.0.0.1:4174">
+  <meta name="description" content="Nexus IT department workspace: people, support tickets, and assets in one place.">
+  <title>Nexus — IT Workspace</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <!-- A single responsive workspace with dashboard, people, tickets, and inventory views. -->
+  <!-- Workspace records are fetched only after authentication. Access is enforced by the server. -->
+  <div id="app"><main class="boot-screen"><h1>Nexus</h1><p>Preparing your IT workspace…</p></main></div>
+  <div id="modal-root"></div>
+  <div id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p>This workspace requires JavaScript. Enable it in your browser to manage records.</p></noscript>
+  <script src="client-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

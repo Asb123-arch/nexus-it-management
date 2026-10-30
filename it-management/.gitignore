@@ -1,0 +1,10 @@
+# Authentication database, sessions, credentials, and private exports must not be committed.
+.private/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*
+backups/
+*.log
+node_modules/

@@ -1,0 +1,11 @@
+**/.private/
+**/node_modules/
+**/artifacts/
+**/backups/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*
+*.log
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "name": "nexus-it-workspace",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Nexus IT workspace with isolated organizations, administrator signup, role-based access and ticket collaboration",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server.cjs",
+    "init": "node server.cjs init",
+    "test": "node --test tests/data.test.cjs tests/security.test.cjs tests/organizations.test.cjs",
+    "test:browser": "node tests/browser.test.cjs"
+  }
+}
